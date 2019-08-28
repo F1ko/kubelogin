@@ -1,6 +1,6 @@
 TARGET := kubelogin
 TARGET_PLUGIN := kubectl-oidc_login
-CIRCLE_TAG ?= HEAD
+CIRCLE_TAG ?= v1.14.3
 LDFLAGS := -X main.version=$(CIRCLE_TAG)
 
 all: $(TARGET)

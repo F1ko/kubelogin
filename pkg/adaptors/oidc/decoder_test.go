@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/WhizUs/jwt-go"
 )
 
 func TestDecoder_DecodeIDToken(t *testing.T) {

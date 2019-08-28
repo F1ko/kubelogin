@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/WhizUs/jwt-go"
 	"github.com/golang/mock/gomock"
 	"github.com/int128/kubelogin/e2e_test/idp"
 	"github.com/int128/kubelogin/e2e_test/idp/mock_idp"

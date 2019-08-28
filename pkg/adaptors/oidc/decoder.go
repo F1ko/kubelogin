@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/WhizUs/jwt-go"
 	"github.com/int128/kubelogin/pkg/adaptors"
 	"golang.org/x/xerrors"
 )
